@@ -1,0 +1,21 @@
+.Messages {
+  margin-top: 40px;
+}
+
+/* TOP */
+.Messages__TopBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 15px;
+}
+
+.Messages__TopBar__Name {
+  font-size: 16px;
+}
+
+/* CONTAINER */
+.Messages__Container {
+  display: flex;
+  flex-direction: column;
+}

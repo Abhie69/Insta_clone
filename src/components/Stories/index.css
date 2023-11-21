@@ -1,0 +1,32 @@
+.Stories {
+  position: relative;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 12px 0;
+  box-shadow: 0 0.23px 0 #a6a6aa;
+}
+
+.Stories::-webkit-scrollbar {
+  display: none;
+}
+
+.Stories__List {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  gap: 20px;
+}
+
+.Stories__Item:first-child {
+  padding-left: 12px;
+}
+
+.Stories__Item:last-child {
+  padding-right: 12px;
+}
+
+
+.Stories__Yours{
+  font-size: 12px;
+}

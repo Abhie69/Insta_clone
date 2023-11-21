@@ -1,0 +1,88 @@
+.Profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* TOP */
+.Profile__Top {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 348px;
+  margin-top: 18px;
+}
+
+.Profile__Top__Details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Profile__image {
+  border-radius: 100%;
+  width: 86px;
+  height: 86px;
+  border: 1px solid #9999994c;
+  padding: 2px;
+}
+
+.Profile__ img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  border-radius: 50%;
+}
+
+.Profile__Stats {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+  text-align: center;
+}
+
+.Profile__top {
+  font-weight: bold;
+}
+
+.Profile__bottom {
+  font-size: 13px;
+}
+
+/* description */
+.Profile__Details {
+  margin-top: 18px;
+  font-size: 13px;
+}
+.Profile__Details__Name {
+  font-weight: bold;
+}
+
+/* button edit */
+.Profile__Edit {
+  margin-top: 18px;
+}
+
+.Profile__Edit__btn {
+  width: 343px;
+  height: 29px;
+  background-color: #ffffff;
+  border: 1px solid grey;
+  border-radius: 8px;
+}
+
+/* grid */
+.Profile__Feed {
+  margin: 36px 0 80px;
+  padding: 8px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2px;
+}
+
+.Profile__Feed__Item img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 1/1;
+}

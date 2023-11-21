@@ -1,0 +1,101 @@
+.Post {
+  position: relative;
+  margin-bottom: 6px;
+}
+
+/* TOP */
+.PostInfo {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px;
+}
+
+.PostInfo__Image img {
+  border-radius: 100%;
+  width: 32px;
+  height: 32px;
+}
+
+.PostInfo__Username {
+  font-weight: bold;
+}
+
+.PostInfo__Location {
+  font-size: 11px;
+}
+
+.PostInfo__Content {
+  display: flex;
+  flex-direction: column;
+}
+
+.DotsIconSVG {
+  position: absolute;
+  right: 0;
+  margin-right: 12px;
+}
+
+/* CONTENT */
+.PostMain {
+  width: 100%;
+  height: 300px;
+}
+
+.PostMain img {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+
+.PostMain video {
+  object-fit: cover;
+  width: 100%;
+  height: 300px;
+}
+
+/* ACTIONS */
+.PostActions {
+  padding: 12px 12px 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.PostActions__left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+/* LIKES AND COMMENTS */
+.PostsLC {
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.PostsLC__top {
+  display: flex;
+  align-items: center;
+}
+
+.PostsLC__profile {
+  width: 17px;
+  height: 17px;
+  border-radius: 100%;
+  margin-right: 6.5px;
+}
+
+.PostsLC__likes {
+  font-size: 13px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.PostsLC__description {
+  font-size: 14px;
+}

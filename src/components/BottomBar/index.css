@@ -1,0 +1,29 @@
+.BottomBar {
+  position: fixed;
+  max-width: 390px;
+  margin: 0 auto;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 48px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 12px;
+  box-shadow: 0 -0.85px 0 #a6a6aa;
+  background-color: #fafafa;
+  z-index: 99;
+}
+
+.BottomBar svg {
+  width: 75px;
+  height: 50px;
+}
+
+.BottomBar__profile {
+  height: 26px;
+  width: 26px;
+  border-radius: 100%;
+  object-fit: cover;
+  box-shadow: 0 0 4px #a6a6aa;
+}
